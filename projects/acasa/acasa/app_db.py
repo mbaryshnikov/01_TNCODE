@@ -33,13 +33,13 @@ def sk_printen():
          print(f'{k} {v["partition"]} {v["title"]} {v["pries"]}€')
 
 
-def receipt_lst(lst, d, cust):
+def receipt_lst(lst, d, cust, n):
     s = 0
     sk = db_reader('restaurant.db')
     rcpt_lst = []
     rcpt_lst.append('*' * 32 )
     rcpt_lst.append('ACASA Restaurant')
-    rcpt_lst.append(f'Your receipt N_{RSPT_COUNT} {d}:')
+    rcpt_lst.append(f'Your receipt N_{n} {d}:')
     rcpt_lst.append(f'Customer Id:{cust[0]} Name: {cust[1]} {cust[2]}')
     rcpt_lst.append('-' * 32 )
     for _ in lst:
@@ -91,7 +91,6 @@ def order_saver(id, my_list, d, f):
 
 
 def main():
-    global RSPT_COUNT
     d = datetime.now().strftime("%d.%m.%y %H:%M")
     print('*' * 32 )
     print('Willkommen bei Acasa Restaurant!')
@@ -106,10 +105,11 @@ def main():
         else:
             break
     RSPT_COUNT = order_saver(customer[0], ','.join(order_list), d, 'restaurant.db')
-    rcpt_lst = receipt_lst(order_list, d, customer)
+    rcpt_lst = receipt_lst(order_list, d, customer, RSPT_COUNT)
     print(*rcpt_lst, sep='\n')
     receipt_save(rcpt_lst)
 
 
 if __name__ == '__main__':
     main()
+    
