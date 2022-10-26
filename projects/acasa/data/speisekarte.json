@@ -1,0 +1,32 @@
+{ 
+    "100": {
+        "partition": "Pizza",
+        "dish_num": 100,
+        "title": "Margarita",
+        "pries": 5
+        },
+    "101": {
+        "partition": "Pizza",
+        "dish_num": 101,
+        "title": "Tunfish",
+        "pries": 6
+        },
+    "102": {
+        "partition": "Pizza",
+        "dish_num": 102,
+        "title": "ai Quattro Formaggi",
+        "pries": 7
+        },
+    "200": {
+        "partition": "Auflauf",
+        "dish_num": 200,
+        "title": "Nudeln",
+        "pries": 6
+        },
+    "201": {
+        "partition": "Auflauf",
+        "dish_num": 201,
+        "title": "Kartoffel",
+        "pries": 7
+        }
+}

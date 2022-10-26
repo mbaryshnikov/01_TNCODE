@@ -1,0 +1,163 @@
+********************************
+ACASA Restaurant
+Your receipt N_1 25.10.22 12:45:
+--------------------------------
+100 Pizza Margarita 5€
+000 wrong entry
+200 Auflauf Nudeln 6€
+Total 11€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_2 26.10.22 11:38:
+--------------------------------
+100 Pizza Margarita 5€
+Total 5€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_3 26.10.22 11:59:
+--------------------------------
+100 Pizza Margarita 5€
+Total 5€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_4 26.10.22 12:16:
+--------------------------------
+100 Pizza Margarita 5€
+Total 5€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_5 26.10.22 12:20:
+--------------------------------
+100 Pizza Margarita 5€
+Total 5€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_6 26.10.22 12:42:
+--------------------------------
+100 Pizza Margarita 5€
+200 Auflauf Nudeln 6€
+101 Pizza Tunfish 6€
+000 wrong entry
+Total 17€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_7 26.10.22 12:43:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+000 wrong entry
+Total 10€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_8 26.10.22 12:47:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 15€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_9 26.10.22 12:49:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 10€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_10 26.10.22 12:50:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 10€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_11 26.10.22 12:52:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 10€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_12 26.10.22 12:54:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 10€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_13 26.10.22 12:57:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 10€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_14 26.10.22 13:00:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 15€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_15 26.10.22 13:02:
+--------------------------------
+200 Auflauf Nudeln 6€
+200 Auflauf Nudeln 6€
+200 Auflauf Nudeln 6€
+Total 18€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_16 26.10.22 13:03:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 15€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_<sqlite3.Cursor object at 0x000001A60ABF6240> 26.10.22 13:14:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+Total 15€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_4 26.10.22 13:15:
+--------------------------------
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+100 Pizza Margarita 5€
+200 Auflauf Nudeln 6€
+200 Auflauf Nudeln 6€
+Total 32€
+Thanks a lot for your visit!
+********************************
+ACASA Restaurant
+Your receipt N_5 26.10.22 13:19:
+Customer Id:5 Name: max max
+--------------------------------
+200 Auflauf Nudeln 6€
+200 Auflauf Nudeln 6€
+200 Auflauf Nudeln 6€
+Total 18€
+Thanks a lot for your visit!
