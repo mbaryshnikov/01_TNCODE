@@ -28,7 +28,6 @@ def cars_print(stat):
 
 
 def main():
-    d = datetime.now().strftime("%d.%m.%y %H:%M")
     print('*' * 32 )
     print('Welcome by Europcar!')
     print('avaiable cars:')
