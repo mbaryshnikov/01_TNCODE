@@ -2,6 +2,7 @@
 Hauptprogramm
 """
 import sqlite3
+import pandas as pd
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
@@ -20,19 +21,20 @@ def db_exec(f, st):
 def cars_print(stat):
     sql = f"SELECT Cars.ID, m.Producer, m.Model, m.Class, m.Price FROM Cars JOIN Colors as 'c' on c.ID = Cars.Color JOIN Models as 'm' on m.ID = Cars.Model JOIN Status as 's' on s.ID = Cars.Status WHERE Avl = {stat} ORDER BY m.Producer;"
     lst = db_exec('europcar.db', sql)
+    columns = ('ID', 'Produser', 'Model', 'Class', 'Price')
     print('-' * 38)
-    print(' N Produser     Model   Class   Price')
+    df = pd.DataFrame(lst, columns=columns)
+    print (df)
     print('-' * 38)
-    [print(f' {_[0]} {_[1]:10}\t{_[2]}\t{_[3]}\t{_[4]}\t') for _ in lst]
     return lst
 
 
 def main():
-    print('*' * 32 )
+    print('-' * 38)
     print('Welcome by Europcar!')
     print('avaiable cars:')
     cars_list = cars_print(1)
-    user_ch = int(input('User_Wish: '))
+    user_ch = int(input('User_Wish ID: '))
     user_ch = [x for x in cars_list if x[0] == user_ch]
     if user_ch == []:
         print('There is no such car!')
