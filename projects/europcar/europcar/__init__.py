@@ -1,5 +1,5 @@
 """
-Europcar Projekt.
+ACASA Projekt.
 
 Modules in this package:
 
@@ -8,6 +8,6 @@ Modules in this package:
 """
 
 __author__ = 'Max Baryshnikov'
-__version__ = '0.1'
-__package__ = 'europcar'
+__version__ = '0.2'
+__package__ = 'acasa'
 
