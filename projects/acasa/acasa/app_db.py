@@ -91,7 +91,7 @@ def order_saver(id, my_list, d, f):
 
 
 def main():
-    d = datetime.now().strftime("%d.%m.%y %H:%M")
+    curent_data = datetime.now().strftime("%d.%m.%y %H:%M")
     print('*' * 32 )
     print('Willkommen bei Acasa Restaurant!')
     customer = customer_input('restaurant.db')
@@ -104,8 +104,8 @@ def main():
             order_list.append(user_input)
         else:
             break
-    RSPT_COUNT = order_saver(customer[0], ','.join(order_list), d, 'restaurant.db')
-    rcpt_lst = receipt_lst(order_list, d, customer, RSPT_COUNT)
+    RSPT_COUNT = order_saver(customer[0], ','.join(order_list), curent_data, 'restaurant.db')
+    rcpt_lst = receipt_lst(order_list, curent_data, customer, RSPT_COUNT)
     print(*rcpt_lst, sep='\n')
     receipt_save(rcpt_lst)
 

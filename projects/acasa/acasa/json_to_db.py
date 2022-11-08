@@ -13,9 +13,9 @@ def db_writer(data, f):
     conn = sqlite3.connect(BASE_DIR / "data" / f)
     cursor = conn.cursor()
     cursor.execute("DELETE FROM speisekarte")
+    sql = "INSERT INTO speisekarte (ID, partition, title, pries) Values (:dish_num, :partition, :title, :pries);"
     with conn:
         for k, v in data.items():
-            sql = "INSERT INTO speisekarte (ID, partition, title, pries) Values (:dish_num, :partition, :title, :pries);"
             cursor.execute(sql, v)
     conn.close()
 
